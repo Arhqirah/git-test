@@ -13,6 +13,13 @@ p {
 }
 section {
   background-color: black;
+  padding: 5%;
+}
+.align {
+  text-align: center;
+}
+.border {
+  border: solid white 5px;
 }
 
 .grid_forside1 {
@@ -21,6 +28,8 @@ section {
   grid-gap: 40px;
   align-items: center;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .forside1:nth-child(1) {
